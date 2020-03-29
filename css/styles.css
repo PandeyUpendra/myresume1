@@ -1,0 +1,142 @@
+body{
+  margin: 0;
+  text-align: center;
+  color: #40514E;
+  font-family: 'Merriweather', serif;
+}
+
+h1{
+  font-family: 'Sacramento', cursive;
+  font-size: 5em;
+  text-align: center;
+  color: #67BFBF;
+  margin: auto;
+  padding-top: 50px;
+}
+
+h2{
+  font-weight: normal;
+  font-family: 'Merriweather', serif;
+  color: #67BFBF;
+}
+
+h3{
+  font-weight: normal;
+  font-family: 'Merriweather', serif;
+  color: #67BFBF;
+}
+
+p{
+  margin-bottom: 0;
+  font-weight: normal;
+  line-height: 2;
+}
+
+hr{
+  margin: 200px auto;
+  border-top: 7px dotted #67BFBF ;
+  width: 5%;
+}
+
+a{
+  color: #11999e;
+  margin: auto 20px;
+  font-family: 'Merriweather', serif;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #eaf6f6;
+}
+
+.copyright{
+  color: #eaf6f6;
+  font-size: 12px;
+  padding: 20px 0;
+}
+
+.intro-container{
+  position: relative;
+  background-color: #C5F4F0;
+  padding-top: 100px;
+}
+
+.bottom-container{
+  height: 100px;
+  background-color: #67BFBF;
+  padding: 30px 0 20px;
+}
+
+.mountain{
+  padding-top: 150px;
+}
+
+.top-cloud{
+  position: absolute;
+  left: 70%;
+  top: 30%;
+}
+
+.bottom-cloud{
+  position: absolute;
+  right: 65%;
+  bottom: 45%;
+}
+
+.profileImg{
+  width: 230px;
+  height: 230px;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.skill-row{
+  width: 50%;
+  text-align: left;
+  margin: 200px auto;
+}
+
+.skill-row1{
+  width: 50%;
+  text-align: left;
+  margin: 200px auto;
+}
+
+.code-img{
+  float: left;
+  margin-right: 30px;
+  width: 25%;
+}
+
+.chilli-img{
+  float: right;
+  margin-left: 30px;
+  width: 25%;
+}
+
+
+.btn {
+  margin-bottom: 30px;
+	box-shadow: 0px 1px 0px 0px #f0f7fa;
+	background:linear-gradient(to bottom, #a6ddf0 5%, #67BFBF 100%);
+	background-color:#67BFBF;
+	border-radius:4px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px -1px 0px #5b6178;
+}
+.btn:hover {
+	background:linear-gradient(to bottom, #0ba0d6 5%, #a6ddf0 100%);
+	background-color:#0ba0d6;
+}
+.btn:active {
+	position:relative;
+	top:1px;
+}
